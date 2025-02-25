@@ -22,3 +22,13 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+
+// dot notation
+console.log(backpack.pocketNum);
+
+// bracket notation
+console.log(backpack["pocketNum"]);
+
+// flexibility
+const query = "pocketNum";
+console.log(backpack[query]);
